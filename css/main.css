@@ -1,0 +1,147 @@
+
+html, body {font-size:100%;font-family: "SimHei";height:100%;padding: 0; margin: 0 auto; }
+
+.main{
+	width:100%;
+	margin:0 auto;
+    overflow:hidden;	
+}
+
+.bg{
+   position:fixed;
+   height:100%;
+}
+
+.android{
+	background-color:#3dcc79;
+}
+
+.ios{
+	background-color:#1fcc7b;
+}
+
+img {
+	width:100%;
+	
+}
+
+span{
+	font-weight:bolder;
+	color:white;
+}
+
+.lay{
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:black;
+	opacity:0.7;
+	width:100%;
+	height:100%;
+}
+
+.intro{
+  position: fixed;
+  top:15%;
+  left:10%;
+  width:80%;
+}
+
+@keyframes zoomIn
+{
+	0%{opacity:0;-webkit-transform:scale(.3);-ms-transform:scale(.3);transform:scale(.3)}
+	50%{opacity:1;-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+	100%{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+}
+
+@-webkit-keyframes zoomIn
+{
+	0%{opacity:0;-webkit-transform:scale(.3);-ms-transform:scale(.3);transform:scale(.3)}
+	50%{opacity:1;-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+	100%{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+}
+
+
+.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn;}
+
+.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut;}
+
+@-webkit-keyframes zoomOut
+{
+	0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+	50%{opacity:0;-webkit-transform:scale(.3);transform:scale(.3)}
+	100%{opacity:0;}
+}
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+
+.btn_in{
+	position:absolute;
+	left:20%;
+	width:60%;
+	bottom:8%;
+}
+
+.fail{
+  position:fixed;
+  top:5%;
+  left:10%;
+  width: 80%;
+}
+
+.success{
+  position:fixed;
+  top:5%;
+  left:8%;
+  width: 84%;
+}
+
+.share{
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.bottom{
+	position:fixed;
+	left:0px;
+	bottom:-5px;
+	width:100%;
+}
+
+.download{
+	position:fixed;
+	width:23%;
+	height:5.3%;
+	right:5%;
+	bottom:2.6%;
+}
+
+.download img{
+	width:100%;
+	height:100%;
+}
+.screen{
+	top:0px;
+	left:0px;
+	z-index:10;
+	position:fixed;
+	width:100%;
+	height:69%;
+}
+
+.screen div{
+	white-space:nowrap;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:0;
+	height:30px;
+	line-height:36px;
+}
+
+
